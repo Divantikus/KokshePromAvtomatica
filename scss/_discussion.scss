@@ -27,6 +27,10 @@
       position: absolute;
       filter: blur(350px);
       background: linear-gradient(180deg, rgba(255, 255, 255, 1));
+
+      @media (max-width: 845px) {
+        display: none;
+      }
     }
 
     &::after {
@@ -38,6 +42,10 @@
       position: absolute;
       filter: blur(350px);
       background: linear-gradient(180deg, rgba(255, 255, 255, 1));
+
+      @media (max-width: 845px) {
+        display: none;
+      }
     }
 
     @media (max-width: 520px) {

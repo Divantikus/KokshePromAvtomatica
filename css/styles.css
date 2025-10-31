@@ -2,6 +2,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Kameron:wght@400..700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+:root {
+  color-scheme: ligh only;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -471,6 +475,11 @@ table {
   filter: blur(350px);
   background: linear-gradient(180deg, rgb(255, 255, 255));
 }
+@media (max-width: 845px) {
+  .discussion__text::before {
+    display: none;
+  }
+}
 .discussion__text::after {
   top: -88px;
   right: -205px;
@@ -480,6 +489,11 @@ table {
   position: absolute;
   filter: blur(350px);
   background: linear-gradient(180deg, rgb(255, 255, 255));
+}
+@media (max-width: 845px) {
+  .discussion__text::after {
+    display: none;
+  }
 }
 @media (max-width: 520px) {
   .discussion__text {

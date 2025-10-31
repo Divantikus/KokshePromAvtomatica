@@ -856,6 +856,7 @@ html {
   display: flex;
   font-size: 22px;
   min-height: 100vh;
+  background: #fff;
   flex-direction: column;
   font-family: "Montserrat", sans-serif;
 }

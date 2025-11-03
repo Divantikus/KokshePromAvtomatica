@@ -8,11 +8,15 @@
   &__main-container {
     display: flex;
     overflow: hidden;
+
+    @media (max-width: 1000px) {
+      overflow: auto;
+    }
   }
 
   &__img-container {
-    flex-shrink: 0;
     display: flex;
+    flex-shrink: 0;
     gap: 38px 20px;
     flex-wrap: wrap;
     max-width: 1845px;
@@ -20,5 +24,10 @@
 
   &__mini-title-container {
     margin: 0 0 55px 0;
+  }
+
+  &__img {
+    max-width: 564px;
+    max-height: 308px;
   }
 }

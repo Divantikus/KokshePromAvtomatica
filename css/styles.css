@@ -291,6 +291,11 @@ table {
   display: flex;
   gap: 0 40px;
 }
+@media (max-width: 1000px) {
+  .services__card-container {
+    overflow: auto;
+  }
+}
 .services__card {
   width: 400px;
   color: #000;
@@ -332,6 +337,11 @@ table {
   cursor: pointer;
   background: rgba(13, 44, 84, 0.411);
 }
+@media (max-width: 1000px) {
+  .services__scroll-button {
+    display: none;
+  }
+}
 @media (max-width: 1030px) {
   .services {
     margin: 0 0 100px 0;
@@ -367,15 +377,24 @@ table {
   display: flex;
   overflow: hidden;
 }
+@media (max-width: 1000px) {
+  .works__main-container {
+    overflow: auto;
+  }
+}
 .works__img-container {
-  flex-shrink: 0;
   display: flex;
+  flex-shrink: 0;
   gap: 38px 20px;
   flex-wrap: wrap;
   max-width: 1845px;
 }
 .works__mini-title-container {
   margin: 0 0 55px 0;
+}
+.works__img {
+  max-width: 564px;
+  max-height: 308px;
 }
 
 .advantages {

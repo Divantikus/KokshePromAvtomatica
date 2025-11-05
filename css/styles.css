@@ -239,12 +239,17 @@ table {
 }
 .header__text {
   font-size: 20px;
-  margin: 0 0 208px 0;
+  margin: 0 0 205px 0;
   color: rgb(217, 217, 217);
 }
 @media (max-width: 1250px) {
   .header__text {
     color: transparent;
+  }
+}
+@media (max-width: 467px) {
+  .header__text {
+    margin: 0 0 105px;
   }
 }
 .header__title {

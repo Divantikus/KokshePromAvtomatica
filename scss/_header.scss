@@ -100,11 +100,15 @@
 
   &__text {
     font-size: 20px;
-    margin: 0 0 208px 0;
+    margin: 0 0 205px 0;
     color: rgba(217, 217, 217, 1);
 
     @media (max-width: 1250px) {
       color: transparent;
+    }
+
+    @media (max-width: 467px) {
+      margin: 0 0 105px;
     }
   }
 
